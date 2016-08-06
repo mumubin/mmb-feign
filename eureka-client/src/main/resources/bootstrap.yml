@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: noun
+server:
+  port: 8030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka/
